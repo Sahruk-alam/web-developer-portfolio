@@ -91,11 +91,15 @@ font-weight: bold;
 .secondary-bg{
     background-color: #FFF8F3;
 }
+main section{
+    margin-top:120px ;
+    margin-bottom: 130px;
+}
 .about{
     border-radius: 10px;
     padding: 130px 150px ; 
     text-align: center;
-    margin-top:120px ;
+    
 }
 .main{
     max-width: 1140px;
@@ -112,4 +116,17 @@ font-weight: bold;
 .about-items{
     display: flex;
     justify-content:space-around;
+}
+.text-center{
+    text-align: center;
+}
+.skill-container{
+    display: flex;
+    gap :24px;
+}
+.skill{
+padding: 33px;
+box-shadow:0px 3px 10px 0px #000000;
+border-radius: 5px;
+justify-content:space-around;
 }
