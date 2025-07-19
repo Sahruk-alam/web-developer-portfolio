@@ -133,6 +133,7 @@ justify-content:space-around;
 .resume-container{
     display: flex;
     gap:24px;
+    padding: 16px;
 }
 .experience-description{
     color: #757575;
@@ -173,6 +174,7 @@ justify-content:space-around;
     padding:230px ;
     gap: 100px;
     margin-top: 0px;
+    justify-content: center;
 
 }
 
@@ -189,11 +191,24 @@ padding: 20px;
 /* margin-top: 20px; */
 background-color: white;
 border-radius: 10px;
-
 }
+.hide{
+    display: none;
+}
+
+/* responsivef */
 @media screen and (max-width: 576px) {
-  .open-sans-normal{ 
-    flex-direction: column;
+ .skill-container,.resume-container,.secondary-bg,
+ .about-items{
+ flex-direction: column;
+
   }
- 
+ .secondary-bg{
+    padding: 20px;
+ }
+ footer input[type="text"],footer input[type="email"],
+footer textarea,{
+    width: calc(100% - 40px);
+}
+
     }
