@@ -191,3 +191,9 @@ background-color: white;
 border-radius: 10px;
 
 }
+@media screen and (max-width: 576px) {
+  .open-sans-normal{ 
+    flex-direction: column;
+  }
+ 
+    }
