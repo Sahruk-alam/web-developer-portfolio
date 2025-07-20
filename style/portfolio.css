@@ -153,7 +153,7 @@ justify-content:space-around;
 .section-title{
     font-size: 35px;
     font-weight: bold;
-    margin-bottom: 113px;
+    margin-bottom: 50px;
 }
 .resume-coloum-title{
 
@@ -171,7 +171,7 @@ justify-content:space-around;
 }
 .display-flex{
     display: flex;
-    padding:230px ;
+    padding:100px 200px;
     gap: 100px;
     margin-top: 0px;
     justify-content: center;
@@ -192,11 +192,9 @@ padding: 20px;
 background-color: white;
 border-radius: 10px;
 }
-.hide{
-    display: none;
-}
 
-/* responsivef */
+
+/* responsive Mobaile */
 @media screen and (max-width: 576px) {
  .skill-container,.resume-container,.secondary-bg,
  .about-items,.banner,nav,nav ul{
@@ -227,3 +225,12 @@ footer textarea,{
     margin:20px
 }
     }
+/* responsive Tab */
+@media screen and (min-width: 577px) and 
+(max-width: 992px) 
+ {
+    .banner{
+        flex-direction: column;
+    }
+    
+}
